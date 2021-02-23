@@ -5,8 +5,8 @@ string( name: 'AWS_ACCESS_KEY_ID', defaultValue: 'AKIASYIIRCL7RPGNMENI'),
 string( name: 'AWS_SECRET_ACCESS_KEY', defaultValue: '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') 
 ]), pipelineTriggers([]) ]) 
 // Environment Variables 
-env.AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID 
-env.AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY
+//env.AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID 
+//env.AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY
 node { 
 env.PATH += ":/opt/terraform_0.14.5/" 
 stage ('Checkout') { 
